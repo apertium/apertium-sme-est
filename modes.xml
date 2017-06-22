@@ -34,7 +34,7 @@
 <file name="apertium-sme-est.sme-est.t4x"/>
 <file name="sme-est.t4x.bin"/>
 </program>
-<program name="hfst-proc $1">
+<program name="hfst-proc --weight-classes 1 $1">
 <file name="sme-est.autogen.hfst"/>
 </program>
 </pipeline>
@@ -73,7 +73,7 @@
 <file name="apertium-sme-est.sme-est.t4x"/>
 <file name="sme-est.t4x.bin"/>
 </program>
-<program name="hfst-proc -d">
+<program name="hfst-proc --weight-classes 1 -d">
 <file name="sme-est.autogen.hfst"/>
 </program>
 </pipeline>
@@ -298,7 +298,7 @@
 <file name="apertium-sme-est.est-sme.t3x"/>
 <file name="est-sme.t3x.bin"/>
 </program>
-<program name="hfst-proc $1">
+<program name="hfst-proc --weight-classes 1 $1">
 <file name="est-sme.autogen.hfst"/>
 </program>
 </pipeline>
@@ -330,7 +330,7 @@
 <file name="apertium-sme-est.est-sme.t3x"/>
 <file name="est-sme.t3x.bin"/>
 </program>
-<program name="hfst-proc -d">
+<program name="hfst-proc --weight-classes 1 -d">
 <file name="est-sme.autogen.hfst"/>
 </program>
 </pipeline>

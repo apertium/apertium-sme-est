@@ -1,0 +1,10 @@
+{
+    "est-sme": {
+        "input": "est-sme-input.txt",
+        "mode": "est-sme"
+    },
+    "sme-est": {
+        "input": "sme-est-input.txt",
+        "mode": "sme-est"
+    }
+}
